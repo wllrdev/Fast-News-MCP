@@ -211,6 +211,13 @@ For full endpoint documentation, parameters, response formats, and code examples
 - [Live Demo](https://the-dispatcher-demo.vercel.app/)
 - [Discord](https://discord.gg/kEFfEzPqsk)
 
+## License & API Terms
+
+The configuration and documentation in this repository are MIT licensed.
+The Fast News API itself is a commercial service hosted on RapidAPI — usage
+is subject to the [RapidAPI Terms of Service](https://rapidapi.com/terms) and
+your subscription plan. The MIT license does not grant access to the API.
+
 ## License
 
 [MIT](LICENSE)
