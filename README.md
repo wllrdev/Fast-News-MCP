@@ -5,7 +5,7 @@
 
 Real-time news search, trending headlines, topic categories, and local news — exposed as MCP tools so your AI agent can query news in plain language. No HTTP boilerplate required.
 
-The server is hosted by RapidAPI and connects via [`mcp-remote`](https://github.com/punkpeye/mcp-remote). All you need is a RapidAPI subscription and your API key.
+The server is hosted by RapidAPI and connects via [`mcp-remote`](https://github.com/geelen/mcp-remote). All you need is a RapidAPI subscription and your API key.
 
 ## Demo
 
