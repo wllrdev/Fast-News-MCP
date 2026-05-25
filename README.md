@@ -13,7 +13,7 @@ See the Fast News API in action: **[the-dispatcher-demo.vercel.app](https://the-
 
 ## Get an API Key
 
-1. Subscribe on [RapidAPI](https://rapidapi.com/SemicolonBandit/api/fast-news-with-previews) (free tiers available)
+1. Subscribe on [RapidAPI](https://rapidapi.com/SemicolonBandit/api/fast-news-with-previews) (free tier available)
 2. Your API key appears on the **Endpoints** tab
 
 Every request needs two headers:
@@ -25,7 +25,7 @@ Every request needs two headers:
 
 ## Quick Start
 
-**Prerequisites:** [Node.js](https://nodejs.org) (for `npx`) and a [RapidAPI subscription](https://rapidapi.com/SemicolonBandit/api/fast-news-with-previews).
+**Prerequisites:** [Node.js](https://nodejs.org) (for `npx`) and a free [RapidAPI subscription](https://rapidapi.com/SemicolonBandit/api/fast-news-with-previews).
 
 Add the following to your AI agent's MCP server configuration. Replace `YOUR-API-KEY` with your RapidAPI key.
 
