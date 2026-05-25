@@ -72,7 +72,7 @@ For full parameter documentation, see the [API reference](https://docs.marvelous
 **Option A — CLI command:**
 
 ```bash
-claude mcp add fast-news npx mcp-remote https://mcp.rapidapi.com --header "x-api-host: fast-news-with-previews.p.rapidapi.com" --header "x-api-key: YOUR-API-KEY"
+claude mcp add fast-news -- npx mcp-remote https://mcp.rapidapi.com --header "x-api-host: fast-news-with-previews.p.rapidapi.com" --header "x-api-key: YOUR-API-KEY"
 ```
 
 Add `--scope user` to make it available globally across all projects.
