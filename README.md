@@ -170,7 +170,7 @@ Add the following to your `opencode.json`:
 ([docs](https://developers.openai.com/codex/mcp))
 
 ```bash
-codex mcp add fast-news npx mcp-remote https://mcp.rapidapi.com --header "x-api-host: fast-news-with-previews.p.rapidapi.com" --header "x-api-key: YOUR-API-KEY"
+codex mcp add fast-news -- npx mcp-remote https://mcp.rapidapi.com --header "x-api-host: fast-news-with-previews.p.rapidapi.com" --header "x-api-key: YOUR-API-KEY"
 ```
 
 ## Usage Examples
