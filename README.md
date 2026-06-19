@@ -94,7 +94,7 @@ For full parameter documentation, see the [API reference](https://docs.marvelous
 Find your client below and expand it for setup steps.
 
 <details>
-<summary><strong>Claude Code</strong> ([docs](https://code.claude.com/docs/en/mcp))</summary>
+<summary><strong>Claude Code</strong> (<a href="https://code.claude.com/docs/en/mcp">docs</a>)</summary>
 
 **Option A — CLI command:**
 
@@ -111,7 +111,7 @@ Add the [Quick Start](#quick-start) config to your Claude Code MCP settings.
 </details>
 
 <details>
-<summary><strong>Claude Desktop</strong> ([docs](https://modelcontextprotocol.io/docs/develop/connect-local-servers))</summary>
+<summary><strong>Claude Desktop</strong> (<a href="https://modelcontextprotocol.io/docs/develop/connect-local-servers">docs</a>)</summary>
 
 1. Open Claude Desktop settings
 2. Navigate to **Developer** > **Edit Config**
@@ -121,7 +121,7 @@ Add the [Quick Start](#quick-start) config to your Claude Code MCP settings.
 </details>
 
 <details>
-<summary><strong>Cursor</strong> ([docs](https://cursor.com/docs/mcp))</summary>
+<summary><strong>Cursor</strong> (<a href="https://cursor.com/docs/mcp">docs</a>)</summary>
 
 1. Open **Cursor Settings** > **MCP** > **New MCP Server**
 2. Paste the [Quick Start](#quick-start) config
@@ -131,7 +131,7 @@ Add the [Quick Start](#quick-start) config to your Claude Code MCP settings.
 </details>
 
 <details>
-<summary><strong>VS Code Copilot</strong> ([docs](https://code.visualstudio.com/docs/copilot/customization/mcp-servers))</summary>
+<summary><strong>VS Code Copilot</strong> (<a href="https://code.visualstudio.com/docs/copilot/customization/mcp-servers">docs</a>)</summary>
 
 Add the following to your `.vscode/mcp.json`:
 
@@ -157,14 +157,14 @@ Add the following to your `.vscode/mcp.json`:
 </details>
 
 <details>
-<summary><strong>Windsurf</strong> ([docs](https://docs.windsurf.com/windsurf/cascade/mcp))</summary>
+<summary><strong>Windsurf</strong> (<a href="https://docs.windsurf.com/windsurf/cascade/mcp">docs</a>)</summary>
 
 Add the [Quick Start](#quick-start) config to your Windsurf MCP config file (`~/.codeium/windsurf/mcp_config.json`).
 
 </details>
 
 <details>
-<summary><strong>Cline</strong> ([docs](https://docs.cline.bot/mcp/mcp-overview))</summary>
+<summary><strong>Cline</strong> (<a href="https://docs.cline.bot/mcp/mcp-overview">docs</a>)</summary>
 
 1. Open Cline settings
 2. Go to **MCP** > **Add New MCP Server**
@@ -173,14 +173,14 @@ Add the [Quick Start](#quick-start) config to your Windsurf MCP config file (`~/
 </details>
 
 <details>
-<summary><strong>Continue</strong> ([docs](https://docs.continue.dev/customize/mcp-tools))</summary>
+<summary><strong>Continue</strong> (<a href="https://docs.continue.dev/customize/mcp-tools">docs</a>)</summary>
 
 Add the [Quick Start](#quick-start) config to your `~/.continue/config.json` under the `mcpServers` key.
 
 </details>
 
 <details>
-<summary><strong>OpenCode</strong> ([docs](https://opencode.ai/docs/mcp-servers))</summary>
+<summary><strong>OpenCode</strong> (<a href="https://opencode.ai/docs/mcp-servers">docs</a>)</summary>
 
 Add the following to your `opencode.json`:
 
@@ -202,7 +202,7 @@ Add the following to your `opencode.json`:
 </details>
 
 <details>
-<summary><strong>Codex CLI</strong> ([docs](https://developers.openai.com/codex/mcp))</summary>
+<summary><strong>Codex CLI</strong> (<a href="https://developers.openai.com/codex/mcp">docs</a>)</summary>
 
 ```bash
 codex mcp add fast-news -- npx mcp-remote https://mcp.rapidapi.com --header "x-api-host: fast-news-with-previews.p.rapidapi.com" --header "x-api-key: YOUR-API-KEY"
