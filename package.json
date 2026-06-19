@@ -1,6 +1,6 @@
 {
   "name": "@wllrdev/fast-news-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real-time news search, trending headlines, topic categories, and local news as MCP tools. Connects to the Fast News API on RapidAPI.",
   "type": "module",
   "main": "index.js",

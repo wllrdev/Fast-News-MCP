@@ -3,7 +3,7 @@
   "name": "io.github.wllrdev/fast-news",
   "title": "Fast News MCP",
   "description": "Free search, trending, topics & local news via the Fast News with Previews API on RapidAPI.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://rapidapi.com/SemicolonBandit/api/fast-news-with-previews",
   "repository": {
     "url": "https://github.com/wllrdev/Fast-News-MCP",
@@ -13,7 +13,7 @@
     {
       "registryType": "npm",
       "identifier": "@wllrdev/fast-news-mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "transport": {
         "type": "stdio"
       },
