@@ -1,5 +1,6 @@
 # Fast News MCP Server
 
+![npm version](https://img.shields.io/npm/v/@wllrdev/fast-news-mcp?logo=npm&logoColor=white)
 ![RapidAPI](https://img.shields.io/badge/RapidAPI-Fast_News_Previews-orange?logo=rapidapi&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
@@ -51,6 +52,29 @@ Add the following to your AI agent's MCP server configuration. Replace `YOUR-API
 
 See the [per-agent setup instructions](#setup-for-your-ai-agent) below for client-specific details.
 
+<details>
+<summary><strong>Alternative: npm package (secondary option)</strong></summary>
+
+> **Prefer the Quick Start above.** Use this only if your setup specifically benefits from a single published package.
+
+This repository is also published as the npm package [`@wllrdev/fast-news-mcp`](https://www.npmjs.com/package/@wllrdev/fast-news-mcp). It's a thin wrapper around `mcp-remote` that reads your key from the `RAPIDAPI_KEY` environment variable instead of the command line:
+
+```json
+{
+  "mcpServers": {
+    "fast-news": {
+      "command": "npx",
+      "args": ["-y", "@wllrdev/fast-news-mcp"],
+      "env": {
+        "RAPIDAPI_KEY": "YOUR-API-KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
 ## Available Tools
 
 Once connected, your AI agent has access to these tools:
@@ -67,7 +91,10 @@ For full parameter documentation, see the [API reference](https://docs.marvelous
 
 ## Setup for Your AI Agent
 
-### Claude Code
+Find your client below and expand it for setup steps.
+
+<details>
+<summary><strong>Claude Code</strong> ([docs](https://code.claude.com/docs/en/mcp))</summary>
 
 **Option A — CLI command:**
 
@@ -77,31 +104,34 @@ claude mcp add fast-news -- npx mcp-remote https://mcp.rapidapi.com --header "x-
 
 Add `--scope user` to make it available globally across all projects.
 
-**Option B — Manual config** ([docs](https://code.claude.com/docs/en/mcp)):
+**Option B — Manual config:**
 
 Add the [Quick Start](#quick-start) config to your Claude Code MCP settings.
 
-### Claude Desktop
+</details>
 
-([docs](https://modelcontextprotocol.io/docs/develop/connect-local-servers))
+<details>
+<summary><strong>Claude Desktop</strong> ([docs](https://modelcontextprotocol.io/docs/develop/connect-local-servers))</summary>
 
 1. Open Claude Desktop settings
 2. Navigate to **Developer** > **Edit Config**
 3. Paste the [Quick Start](#quick-start) config into `claude_desktop_config.json`
 4. Restart Claude Desktop
 
-### Cursor
+</details>
 
-([docs](https://cursor.com/docs/mcp))
+<details>
+<summary><strong>Cursor</strong> ([docs](https://cursor.com/docs/mcp))</summary>
 
 1. Open **Cursor Settings** > **MCP** > **New MCP Server**
 2. Paste the [Quick Start](#quick-start) config
 3. Replace `YOUR-API-KEY` with your key
 4. Enable the server
 
-### VS Code Copilot
+</details>
 
-([docs](https://code.visualstudio.com/docs/copilot/customization/mcp-servers))
+<details>
+<summary><strong>VS Code Copilot</strong> ([docs](https://code.visualstudio.com/docs/copilot/customization/mcp-servers))</summary>
 
 Add the following to your `.vscode/mcp.json`:
 
@@ -124,29 +154,33 @@ Add the following to your `.vscode/mcp.json`:
 }
 ```
 
-### Windsurf
+</details>
 
-([docs](https://docs.windsurf.com/windsurf/cascade/mcp))
+<details>
+<summary><strong>Windsurf</strong> ([docs](https://docs.windsurf.com/windsurf/cascade/mcp))</summary>
 
 Add the [Quick Start](#quick-start) config to your Windsurf MCP config file (`~/.codeium/windsurf/mcp_config.json`).
 
-### Cline
+</details>
 
-([docs](https://docs.cline.bot/mcp/mcp-overview))
+<details>
+<summary><strong>Cline</strong> ([docs](https://docs.cline.bot/mcp/mcp-overview))</summary>
 
 1. Open Cline settings
 2. Go to **MCP** > **Add New MCP Server**
 3. Select **Local** and paste the [Quick Start](#quick-start) config
 
-### Continue
+</details>
 
-([docs](https://docs.continue.dev/customize/mcp-tools))
+<details>
+<summary><strong>Continue</strong> ([docs](https://docs.continue.dev/customize/mcp-tools))</summary>
 
 Add the [Quick Start](#quick-start) config to your `~/.continue/config.json` under the `mcpServers` key.
 
-### OpenCode
+</details>
 
-([docs](https://opencode.ai/docs/mcp-servers))
+<details>
+<summary><strong>OpenCode</strong> ([docs](https://opencode.ai/docs/mcp-servers))</summary>
 
 Add the following to your `opencode.json`:
 
@@ -165,13 +199,16 @@ Add the following to your `opencode.json`:
 }
 ```
 
-### Codex CLI
+</details>
 
-([docs](https://developers.openai.com/codex/mcp))
+<details>
+<summary><strong>Codex CLI</strong> ([docs](https://developers.openai.com/codex/mcp))</summary>
 
 ```bash
 codex mcp add fast-news -- npx mcp-remote https://mcp.rapidapi.com --header "x-api-host: fast-news-with-previews.p.rapidapi.com" --header "x-api-key: YOUR-API-KEY"
 ```
+
+</details>
 
 ## Usage Examples
 
