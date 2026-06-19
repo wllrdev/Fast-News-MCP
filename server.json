@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.wllrdev/fast-news",
+  "title": "Fast News MCP",
+  "description": "Free search, trending, topics & local news via the Fast News with Previews API on RapidAPI.",
+  "version": "1.0.0",
+  "websiteUrl": "https://rapidapi.com/SemicolonBandit/api/fast-news-with-previews",
+  "repository": {
+    "url": "https://github.com/wllrdev/Fast-News-MCP",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@wllrdev/fast-news-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "RAPIDAPI_KEY",
+          "description": "RapidAPI key for the Fast News with Previews API. Get one (free tier available) at https://rapidapi.com/SemicolonBandit/api/fast-news-with-previews",
+          "isRequired": true,
+          "isSecret": true,
+          "placeholder": "Your RapidAPI key"
+        }
+      ]
+    }
+  ]
+}

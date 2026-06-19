@@ -1,0 +1,6 @@
+# Keep the published npm package lean.
+.git
+.gitignore
+assets/
+.npmignore
+server.json

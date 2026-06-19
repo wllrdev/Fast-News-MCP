@@ -1,0 +1,29 @@
+{
+  "name": "@wllrdev/fast-news-mcp",
+  "version": "1.0.0",
+  "description": "Real-time news search, trending headlines, topic categories, and local news as MCP tools. Connects to the Fast News API on RapidAPI.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "fast-news-mcp": "index.js"
+  },
+  "mcpName": "io.github.wllrdev/fast-news",
+  "license": "MIT",
+  "homepage": "https://github.com/wllrdev/Fast-News-MCP",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wllrdev/Fast-News-MCP.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "news",
+    "rapidapi",
+    "fast-news",
+    "claude",
+    "ai"
+  ],
+  "dependencies": {
+    "mcp-remote": "^0.1.38"
+  }
+}

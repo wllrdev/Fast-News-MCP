@@ -7,3 +7,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Node / npm
+node_modules/
+package-lock.json
